@@ -4,8 +4,8 @@ function greet(user)
 }
 
 let user = {
-  naam = "kirat",
-  age = 19
+  naam : "Anais",
+  age : 19,
 };
 
 greet(user);
