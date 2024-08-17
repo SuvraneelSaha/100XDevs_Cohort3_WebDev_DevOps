@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Padding and Margin</title>
+  </head>
+  <body>
+    <div style="margin-left: 100px; margin-right: 100px">
+      <span>Zerodha</span>
+      <span style="float: right">Sign Up</span>
+      <!-- this fload way is the dumb way of doing things 
+       Using float with that of the margin left and margin right  -->
+    </div>
+
+    <div id="flex" style="display: flex; justify-content: space-between;">
+      <!-- justify-content:flex-start  it is the Default value of flex -->
+       <!-- flex-end ; at the right side  -->
+        <!-- center : at the center  -->
+         <!-- Space-between ; spaced evenly between each other  -->
+      <!-- parent if becomes flex ; then all the children ;
+       will be present side by side occupying only the space that is required   -->
+      <div>Hello World</div>
+
+      <div>Hallo</div>
+
+      <div>Ciao</div>
+      <div>Bonjour</div>
+    </div>
+  </body>
+</html>
